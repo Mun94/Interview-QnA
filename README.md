@@ -71,4 +71,18 @@ console.log(a.suit) // 스페이드
 ### Q let, const, var
 const 문으로 선언한 상수 값은 수정할 수 없지만, 상수 값이 객체이거나 배열일 경우에는 프로퍼티 또는 프로퍼티 값을 수정할 수 있다.
 
-### 
+### Q 객체의 메서드
+객체의 프로퍼티 중에서 함수 객체의 참조를 값으로 담고 있는 프로퍼티를 가리켜 메서드라고 부른다.   
+var circle = {   
+    center : {x:1.0, y:2.0},   
+    radius : 2.5,   
+    area: function() {   
+        return Math.PI * this.radius * this.radius;   
+     }   
+   }   
+함수 객체 안에 적힌 this는 그 함수를 메서드로 가지고 있는 객체를 가리킨다.(this.radius가 circle.radius 임)
+
+### Q 함수를 활용하면 얻을 수 있는 장점
+1. 재사용할 수 있다.   
+1. 만든 프로그램을 이해하기 쉽다.   
+1. 프로그램 수정이 간단해진다.
