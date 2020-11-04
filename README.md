@@ -282,10 +282,6 @@ connect(mapStateToProps, mapDispatchToProps)(타깃컴포넌트)
 클래스형은 render함수가 반드시 필요, 함수형이 선언하기 더 간편하다.   
 
 ### Q 라이프 사이클 메소드에 대해서 설명하세요.
-클래스형에 라이프사이클 메소드에는 크게 mount, update, unmount 3가지 과정으로 나뉜다. 자세하게는    
-constructor -> getDerivedStateFromProps -> render -> componentDidMount ->    
-getDerivedStateFromProps -> shouldComponentUpdate -> render -> getSnapshotBeforeUpdate   
--> componentDidupdate    
 mount에서 컴포넌트가 만들어질때 componetDidMount에서 비동기처리 같은것을 주로하고, shouldComponentUpdate에서 업데이트 직전에 랜더링시(상태가변경)에 조건으로 재랜더링을 하냐마냐 결정을 할 수 있고, componentDidUpdate 업데이트 직후에 호출되는 메소드이고 unmount에서 컴포넌트가 소멸된 시점에 타이머나 비동기 API를제거 하는 곳이다. 
 
 ### Q 타입스크립트를 사용해본 경험이 있는가, 타입스크립트에 대한 본인의 생각과 도입시의 장점을 말해달라.
