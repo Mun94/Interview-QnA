@@ -446,7 +446,7 @@ import문은 외부 모듈이나 다른 스크립트 등으로부터 export된 �
 window 운영체제에서 다른 운영체제의 CLI(Command Line Interface)환경의 SSH(Secure Shell)접속에 편리하게 해준다   
 (Window운영체제에서 Ubuntu Linux를 사용 가능하게 해줌)   
 CLI : 명령어를 통해 시스템 제어 <---> GUI : 그래픽 환경으로 시스템 제어   
-SSH : 네트워크 프로토콜 중 하나로 컴퓨터와 컴퓨터가 인터넷과 같은 Public Network 통해 서로 통신할 때 보안적으로 안전하게 통신하기 위해 사용하는 프로토콜   
+SSH : 네트워크 프로토콜 중 하나로 컴퓨터와 컴퓨터가 인터넷과 같은 Public Network 통해 서로 통신할 때 보안적으로 안전하게 통신하기 위해 사용하는 프로토콜    
 
 ### 기타
 * 왜 개발자가 되려고 하는가   
