@@ -1,5 +1,5 @@
 (//////)
-### parseInt vs Number   
+### Q parseInt vs Number   
 * Number(str) : 문자열을 인자로 받으면 해당 문자열을 숫자로 바꿔줌   
 var num = Number('1234'); // 1234   
 var num = Number('1000원'); // NaN <- 문자열이 숫자가 아닌 경우 NaN   
@@ -8,7 +8,7 @@ var num = parseInt('1234'); // 1234
 var num = parseInt('1000원'); // 1000   
 var num = parseInt('가격 : 1000원') // NaN <- 시작이 숫자가 아니면 NaN   
 
-### toString vs String
+### Q toString vs String
 null을 형 변환 할때 빼고는 별차이 없는듯..   
 toString()를 사용하여 null 형 변환시 NullPointerException이 발생   
 String을 사용하여 null 형 변환시 "null"을 반환   
