@@ -1,4 +1,4 @@
-(//////)
+(///////)
 ### Q parseInt vs Number   
 * Number(str) : 문자열을 인자로 받으면 해당 문자열을 숫자로 바꿔줌   
 var num = Number('1234'); // 1234   
