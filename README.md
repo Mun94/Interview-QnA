@@ -1,4 +1,4 @@
-(////////)
+(/////////)
 ### Q call, apply, bind를 이용한 함수 호출 방법   
 <a href = 'https://onedrive.live.com/redir?resid=7CE94785366BD802%212359&authkey=%21ALJ1eBGXkrRrpRo&page=View&wd=target%28syntax%20%EB%B3%B5%EC%8A%B5.one%7Cb0ea4696-b154-4fc1-a020-50e516fb4e85%2Fcall%2C%20apply%2C%20bind%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%95%A8%EC%88%98%20%ED%98%B8%EC%B6%9C%20%EB%B0%A9%EB%B2%95%7C1348a6ed-cbae-44a3-90fa-fa0c721c4b27%2F%29'>여기에다가 따로 정리</a>
 
