@@ -1,12 +1,12 @@
 (///////////)
 ### Q ES2020 / ES2021   
-<ES2021>    
+<.ES2021.>    
 let sam = "hi ! !";    
 console.log(sam.replaceAll(" ","")) // hi!!    
 let num = 10_000_000    
 console.log(num) // 10000000    
  
-<ES2020>    
+<.ES2020.>    
 기존에는 삼항연산자나 기본값연산자(||) 보호연산자(&&)에서 조건문 부분에 null, undefined외에도 0,'',NaN,false 등은 거짓으로 처리되었다. 이제 널 병합 연산자(??)를 사용하면 null과    
 undefined인 경우에만 거짓으로 처리된다.    
 
