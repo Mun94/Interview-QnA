@@ -1,15 +1,15 @@
 (///////////)
 ### Q ES2020 / ES2021
-<ES2021>
-    let sam = "hi ! !";
-    console.log(sam.replaceAll(" ","")) // hi!!
-    let num = 10_000_000
-    console.log(num) // 10000000
+<ES2021>   
+    let sam = "hi ! !";   
+    console.log(sam.replaceAll(" ","")) // hi!!   
+    let num = 10_000_000   
+    console.log(num) // 10000000   
     
-<ES2020>
-    기존에는 삼항연산자나 기본값연산자(||) 보호연산자(&&)에서 조건문 부분에 null, undefined외에도 0,'',NaN,false 등은 거짓으로 처리되었다. 이제 널 병합 연산자(??)를 사용하면 null과
-    undefined인 경우에만 거짓으로 처리된다.
-    
+<ES2020>   
+    기존에는 삼항연산자나 기본값연산자(||) 보호연산자(&&)에서 조건문 부분에 null, undefined외에도 0,'',NaN,false 등은 거짓으로 처리되었다. 이제 널 병합 연산자(??)를 사용하면 null과   
+    undefined인 경우에만 거짓으로 처리된다.   
+       
    이 외에도 몇가지 더 있음 <a href="https://onedrive.live.com/redir?resid=7CE94785366BD802%212359&authkey=%21ALJ1eBGXkrRrpRo&page=View&wd=target%28syntax%20%EB%B3%B5%EC%8A%B5.one%7Cb0ea4696-b154-4fc1-a020-50e516fb4e85%2Fes2020%20%5C%2F%20es2021%7Cc2204e6b-6c93-46f9-aae4-e48b32ce7de2%2F%29">자세히 보기</a>
 
 ### Q call, apply, bind를 이용한 함수 호출 방법   
