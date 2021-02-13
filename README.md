@@ -1,8 +1,8 @@
 (///////////)
 ### Q ES2020 / ES2021
 <ES2021>   
-    let sam = "hi ! !";   
-    console.log(sam.replaceAll(" ","")) // hi!!   
+let sam = "hi ! !";   
+console.log(sam.replaceAll(" ","")) // hi!!   
     let num = 10_000_000   
     console.log(num) // 10000000   
     
