@@ -1,4 +1,7 @@
 (///////////)
+### Q Mobx vs Redux   
+<a href="https://onedrive.live.com/redir?resid=7CE94785366BD802%212359&authkey=%21ALJ1eBGXkrRrpRo&page=View&wd=target%28js%20%EB%B3%B5%EC%8A%B5.one%7C32e07d5e-b74c-4379-9409-1eb1890c8c94%2FMobx%20vs%20Redux%7C72248208-1ebf-4e28-ae01-7461e48fb610%2F%29">설명</a>  
+
 ### Q 크로스 브라우징   
 브라우저마다 해석하지 못하는 css 코드가 존재하고 작동되지 않는 html,js코드가 존재하는 등 브라우저 마다 렌더링 엔진이 다르기 때문에 적용되는 코드가 다를 수 있다. 예를 들어 netscape(파이어폭스, 크롬)라는 브라우저에서는 이벤트 등록을 addEventListner메서드로 했다면 IE에서는 attachEvent메서드를 사용한다.   
 웹 페이지 제작 시에 모든 브라우저에서 깨지지 않고 의도한 대로 올바르게(호환성) 나오게 하는 작업을 크로스 브라우징이라고 한다.
